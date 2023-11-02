@@ -3,14 +3,47 @@
     margin: 0;
     padding: 0;
 }
+.box{
+    background-color: #cccccc;
+    height: 556px;
+    width: 31%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
 .image img{
-    height: 355px;
-    width: 335px;
+    height: 319px;
+    width: 308px;
     border-radius: 19px;
+    margin-left: 56px;
+    margin-top: 10px;
+    
 }
 .headers{
     display: flex;
     gap: 50px;
     align-items: center;
+    color:#706e6e8c;
+    margin-left: 63px;
+    margin-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.para{
+    width: 322px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 46px;
+}
+button{
+    background-color: aqua;
+    border: none;
+    height: 45px;
+    width: 49%;
+    border-radius: 43px;
+    margin-left: 80px;
 
 }
