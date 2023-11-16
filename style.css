@@ -12,11 +12,12 @@
     border-radius: 15px;
 }
 .image img{
-    height: 319px;
-    width: 308px;
+    height: 274px;
+    width: 316px;
     border-radius: 19px;
-    margin-left: 56px;
+    margin-left: 38px;
     margin-top: 10px;
+    object-fit: cover;
     
 }
 .headers{
@@ -24,19 +25,35 @@
     gap: 50px;
     align-items: center;
     color:#706e6e8c;
-    margin-left: 63px;
+    margin-left: 43px;
     margin-top: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#about1{
+    border: 2px grey solid;
+    border-radius: 9px;
+    height: 25px;
+    width: 99px;
+    text-align: center;
+    padding: 2px;
+}
+#about2{
+    border: 2px grey solid;
+    border-radius: 9px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+}
 h2 {
     margin-top: 15px;
-    margin-left: 55px;
+    margin-left: 41px;
 }
 .para{
     width: 322px;
     text-align: justify;
     margin-top: 10px;
-    margin-left: 46px;
+    margin-left: 39px;
 }
 button{
     background-color: aqua;
@@ -44,6 +61,7 @@ button{
     height: 45px;
     width: 49%;
     border-radius: 43px;
-    margin-left: 80px;
+    margin-left: 68px;
+    margin-top: 31px;
 
 }
