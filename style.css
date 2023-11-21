@@ -8,12 +8,11 @@
     height: 556px;
     width: 31%;
     margin: auto;
-    margin-top: 15px;
     border-radius: 15px;
 }
 .image img{
     height: 274px;
-    width: 316px;
+    width: 84%;
     border-radius: 19px;
     margin-left: 38px;
     margin-top: 10px;
@@ -63,5 +62,18 @@ button{
     border-radius: 43px;
     margin-left: 68px;
     margin-top: 31px;
-    list-style: none;
+}
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+/* Make it Responsivness using Media Query */
+@media only screen and (max-width:375px){
+    .box{
+        width: 98%;
+    }
 }
